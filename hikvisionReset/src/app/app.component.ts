@@ -1,11 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { Inicio } from "./components/Inicio/inicio";
 import { Navbar } from "./components/NavBar/navbar";
 import { Funciona } from "./components/Funciona/funciona";
 import { Requisitos } from "./components/Requisitos/requisitos";
-import { Contacto } from "./components/Contacto/contacto";
-import { Footer } from "./components/Footer/footer";
+import { Contacto } from "./components/contacto/contacto";
+import { Footer } from "./components/footer/footer";
 
 @Component({
   selector: 'app-root',
